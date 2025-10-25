@@ -42,7 +42,7 @@ class App extends Component {
     render() {
         return (
             <div className="playground">
-                {this.renderBallOrButton()}
+                {this.renderChoice()}
             </div>
         )
     }
