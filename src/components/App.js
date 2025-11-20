@@ -31,7 +31,7 @@ class App extends Component {
     componentDidMount() {
       document.addEventListener("keydown", (e) => {
         if(e.keyCode === 39 && this.state.renderBall) {
-            const newPos = this.state.ballPosition.left + 5;
+            const newPos = this.state.posi + 5;
             this.setState({
                 posi: newPos,
                 ballPosition: {left: newPos + "px"},
